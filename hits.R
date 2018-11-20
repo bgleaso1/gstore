@@ -4,8 +4,6 @@ library(stringr)
 
 setwd("C:/Users/gleas/Google Drive/Coding/R/")
 
-# test test test
-
 # Load data -----------
 
 gstore <-

@@ -4,7 +4,8 @@ library(jsonlite)
 library(stringr)
 library(janitor)
 
-setwd("C:/Users/gleas/Google Drive/Coding/R/")
+setwd("C:/Users/gleas/Google Drive/Coding/R")
+source("gstore/count_nrows.R")
 
 # Data processing -----------
 
@@ -27,5 +28,5 @@ gstore <-
       visitNumber = col_integer(),
       visitStartTime = col_integer()
     ),
-    n_max = 100 # only first 100 rows to sample
+    n_max = 100000 # only first 100k rows to sample
   )
